@@ -35,11 +35,6 @@ const Footer = ({ isDarkMode }) => {
               LinkedIn
             </a>
           </li>
-          <li>
-            <a href="" target="_blank">
-              Github
-            </a>
-          </li>
         </ul>
       </div>
     </div>
