@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+* {
+  font-family: Outfit;
+}
+
+.hover\:shadow-black:hover {
+  box-shadow: 4px 4px 0 #000;
+}
+.hover\:shadow-black:hover {
+  box-shadow: 4px 4px 0 #fff;
+}
+
+.grid-cols-auto {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
